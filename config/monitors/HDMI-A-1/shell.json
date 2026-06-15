@@ -1,0 +1,9 @@
+{
+    "border": {
+        "thickness": 2
+    },
+    "enabled": true,
+    "sidebar": {
+        "enabled": false
+    }
+}

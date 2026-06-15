@@ -1,0 +1,33 @@
+{
+  "services": {
+      "maxVolume": 1.5,
+      "useFahrenheit": false
+  },
+  "bar": {
+      "persistent": false
+  },
+  "session": {
+    "commands": {
+      "lock": [
+        "caelestia",
+        "shell",
+        "lock",
+        "lock"
+      ],
+      "logout": [
+        "hyprctl",
+        "dispatch",
+        "exit"
+      ],
+      "shutdown": [
+        "systemctl",
+        "poweroff"
+      ],
+      "hibernate": ["bash", "-c", "touch /tmp/qs_test"],
+      "reboot": [
+        "systemctl",
+        "reboot"
+      ]
+    }
+  }
+}

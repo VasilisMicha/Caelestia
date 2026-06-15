@@ -1,0 +1,76 @@
+{
+    "appearance": {
+        "padding": {
+            "scale": 0.9518987341772152
+        },
+        "rounding": {
+            "scale": 0.9783291635196374
+        }
+    },
+    "bar": {
+        "activeWindow": {
+            "compact": true,
+            "inverted": false
+        },
+        "clock": {
+            "background": true,
+            "showDate": true
+        },
+        "dragThreshold": 20,
+        "excludedScreens": [
+            "HDMI-A-1"
+        ],
+        "persistent": false,
+        "popouts": {
+            "activeWindow": false
+        },
+        "scrollActions": {
+            "brightness": false,
+            "volume": false,
+            "workspaces": false
+        },
+        "showOnHover": false,
+        "status": {
+            "showAudio": true,
+            "showKbLayout": true,
+            "showLockStatus": true,
+            "showMicrophone": true
+        },
+        "tray": {
+            "background": false,
+            "compact": false,
+            "recolour": false
+        },
+        "workspaces": {
+            "activeIndicator": false,
+            "maxWindowIcons": 0,
+            "occupiedBg": false,
+            "perMonitorWorkspaces": false,
+            "showWindows": false,
+            "shown": 1
+        }
+    },
+    "border": {
+        "thickness": 10
+    },
+    "dashboard": {
+        "showOnHover": false
+    },
+    "launcher": {
+        "vimKeybinds": true
+    },
+    "notifs": {
+        "actionOnClick": true,
+        "defaultExpireTimeout": 4000,
+        "expire": true,
+        "openExpanded": true
+    },
+    "services": {
+        "maxVolume": 1.5,
+        "smartScheme": true,
+        "useFahrenheit": false
+    },
+    "utilities": {
+        "maxToasts": 3
+    }
+}
